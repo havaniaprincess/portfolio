@@ -1,0 +1,15 @@
+/target
+/vckg
+/data
+/database_data
+/learning_data
+*.bat
+out
+/*.txt
+/out*
+lstmf
+par
+/tools/node_modules
+tools/*.csv
+tools/out*
+*.csv

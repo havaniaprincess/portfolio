@@ -1,0 +1,9 @@
+[package]
+name = "hp_overlay"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rdev = "0.5.3"
+chrono = "0.4"
+clap = { version = "4.5.60", features = ["derive"] }

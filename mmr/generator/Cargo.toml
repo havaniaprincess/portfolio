@@ -1,0 +1,11 @@
+[package]
+name = "generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio.version = "1.45.1"
+tokio.features = [ "rt", "rt-multi-thread", "macros", "fs", "io-util", "sync"]
+flume = "0.11.1"
+rand = "0.9.1"
+mmr_libs = { path = "../mmr-libs" }

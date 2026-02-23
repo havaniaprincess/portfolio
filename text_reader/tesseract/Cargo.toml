@@ -1,0 +1,19 @@
+[package]
+name = "tesseract"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }
+regex = "1.11"
+rayon = "1.10.0"
+tokio.version = "1.46.1"
+tokio.features = [ "rt", "rt-multi-thread", "macros", "fs", "io-util", "sync"]
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json="1.0.140"
+strsim = "0.11"
+chrono = "0.4.41"
+images = { path = "../images" }
+tesseract_lib = { path = "../tesseract_lib" }
+database_lib = { path = "../database_lib" }
+control_log = { path = "../control_log" }

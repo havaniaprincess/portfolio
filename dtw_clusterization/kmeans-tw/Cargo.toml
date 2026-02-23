@@ -1,0 +1,16 @@
+[package]
+name = "kmeans_tw"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio.version = "1.49.0"
+tokio.features = [ "rt", "rt-multi-thread", "macros", "fs", "io-util", "sync"]
+serde_json="1.0.149"
+rand = "0.10.0"
+rand_distr = "0.6.0"
+num-traits = "0.2.19"
+rayon = "1.11.0"
+rand_chacha = "0.10.0"
+plotlib = "0.5.1"
+kmeans = { path = "../kmeans" }

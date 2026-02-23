@@ -1,0 +1,9 @@
+[workspace]
+members = [ "control_log", "database_lib", "hp_overlay", "hp_statistic",
+    "images", 
+    "tensor", "tesseract", "tesseract_lib", "ts_learning", "ts_prepear"]
+
+[package]
+name = "fish_view"
+version = "0.1.0"
+edition = "2024"

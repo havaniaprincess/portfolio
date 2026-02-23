@@ -1,0 +1,11 @@
+[package]
+name = "images"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio.version = "1.46.1"
+tokio.features = [ "rt", "rt-multi-thread", "macros", "fs", "io-util", "sync"]
+flume = "0.11.1"
+png = "0.17.16"
+rayon = "1.10.0"
