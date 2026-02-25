@@ -47,6 +47,15 @@ Automated pipeline that captures in-game catch data (fish name, mass, length, EX
 
 ---
 
+### [proc_testing](proc_testing/README.md)
+**Process-level CPU and memory monitor**
+
+Continuously polls one or more running processes by name and records per-PID resource usage to a semicolon-delimited CSV file. Each snapshot captures resident and virtual memory, instantaneous CPU %, accumulated CPU time, and an alive/exited flag — so processes that die mid-run are still preserved in the history with zeroed metrics. The polling interval and output file name are configurable via CLI flags.
+
+**Stack:** Rust · sysinfo · clap · chrono
+
+---
+
 ## Build
 
 Each project is an independent Cargo workspace. Build any of them with:
